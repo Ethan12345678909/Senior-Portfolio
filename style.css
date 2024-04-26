@@ -335,3 +335,59 @@ padding-left: 300px;
 .recfour {
     background-color: #c7c5c5;
 }
+
+
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
+.abouttext {
+    font-size: 21px;
+}
+
+.resume {
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    border: none;
+    color: #202020;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.resume {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.resume:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.resume:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.resume:hover:after {
+    opacity: 1;
+    right: 10px;
+}

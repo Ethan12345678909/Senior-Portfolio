@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ethan Carvalho</title>
+
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
@@ -13,7 +17,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7./css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body class="body1">
@@ -43,14 +48,16 @@
                         <a class="nav-link" aria-current="page" href="portfolio.html">Portfolio</a>
                     </li>
                  
-                
-                    
                     
                 </ul>
                 <!-- Left links -->
                 <ul class="navbar-nav me- mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="dex.html">About</a>
+                    <a class="nav-link" aria-current="page" href="dex.html"></a>
+                    <button id="show">About</button>
+
+
+
                 </li>
                 </ul>
             </div>
@@ -59,6 +66,49 @@
         <!-- Container wrapper -->
     </nav>
     <!-- Navbar -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="center hideform">
+    <button id="close" style="float: right;">Close</button>
+    <form action="/action_page.php">
+     <div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imgs/aboutme.jpg" width="350px" height="600px">
+            </div>
+            <div class="col-md-8">
+                <p class="abouttext">
+                    I am Ethan Carvalho, a Marlboro, New Jersey resident currently pursuing advanced studies in an NJIT level web design
+                    course. Beyond my studies, my professional journey encompasses a rich blend of experiences. As a barista at Project
+                    Brunch, I take pride in crafting beverages and delivering exceptional service, fostering a warm and welcoming atmosphere
+                    for patrons. Concurrently, my passion for the written word drives my endeavors as a freelance writer. Through
+                    captivating data-driven analysis and informative articles, I endeavor to engage audiences across diverse platforms,
+                    honing my skills in communication and SEO. <br>
+                    In the realm of web design, I merge my diverse background and technical expertise to create visually stunning and
+                    user-centric digital experiences. Proficient in HTML, CSS, Bootstrap, and JavaScript, I meticulously craft responsive
+                    layouts, optimize performance, and implement interactive features. With an unwavering commitment to excellence and a
+                    keen eye for detail, I strive to exceed expectations in every aspect of the design process.
+
+                </p>
+            </div>
+
+     </div>
+     <div class="row">
+        <div class="col-md-4">
+            <p class="abouttext">Ethan042806@gmail.com <br>
+            (732) 620-9121</p>
+        </div>
+        <div class="col-md-8">
+            <button class="resume"><span><a href="https://docs.google.com/document/d/1j1yqoT4w4no6befagmlWXl5V0N9Pw2R7OAl-oNGpSY8/edit#heading=h.5x0d5h95i329">Resume</a></span></button>
+        </div>
+
+     </div>
+     </div>
+    </form>
+</div>
+
+
+
 <div class="row">
     <div class="col-md-1">
         <h1 class="titletext">Ethan</h1>
@@ -71,8 +121,6 @@
 <div class="lines-container text-center">
     <div class="line"></div>
 </div>
-
-
 
 
 <div class="row homebutton">
@@ -148,6 +196,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
         <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
