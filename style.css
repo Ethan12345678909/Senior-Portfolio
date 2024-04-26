@@ -349,6 +349,11 @@ padding-left: 300px;
 }
 .abouttext {
     font-size: 21px;
+    padding-top: 15px;
+}
+.abouttextt {
+    font-size: 21px;
+    padding-top: 30px;
 }
 
 .resume {

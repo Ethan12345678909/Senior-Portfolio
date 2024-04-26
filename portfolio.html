@@ -79,9 +79,10 @@
                             <div class="dropdown">
                                 <button onclick="toggleDropdown()" class="dropbtn">Select Filters</button>
                                 <div id="myDropdown" class="dropdown-content">
-                                    <a onclick="applyFilter('level1')">Level 1</a>
-                                    <a onclick="applyFilter('level2')">Level 2</a>
-                                    <a onclick="applyFilter('level3')">Level 3</a>
+                                    <a class="filter-button" data-filter=".filter-one" onclick="applyFilter('level1')">Level 1</a>
+                                    <a class="filter-button" data-filter=".filter-two" onclick="applyFilter('level2')">Level 2</a>
+                                    <a class="filter-button" data-filter=".filter-three" onclick="applyFilter('level3')">Level 3</a>
+                                    <a class="filter-button" data-filter=".filter-default" onclick="applyFilter('all')">All</a>
                                 </div>
                             </div>
                         </div>
@@ -90,35 +91,36 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-4">
-            <a href="#" class="btn btn-block gallery-item squareone squaregallery"></a>
+        <div class="col-lg-4" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item squareone squaregallery">
+            HI</a> 
         </div>
-        <div class="col-lg-8">
-            <a href="#" class="btn btn-block gallery-item recone rectanglegallery"></a>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8">
-            <a href="#" class="btn btn-block gallery-item rectwo rectanglegallery"></a>
-        </div>
-        <div class="col-lg-4">
-            <a href="#" class="btn btn-block gallery-item squaretwo squaregallery"></a>
+        <div class="col-lg-8" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item recone rectanglegallery">HI</a>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-4">
-            <a href="#" class="btn btn-block gallery-item squarethree squaregallery"></a>
+        <div class="col-lg-8" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item rectwo rectanglegallery">HI</a>
         </div>
-        <div class="col-lg-8">
-            <a href="#" class="btn btn-block gallery-item recthree rectanglegallery"></a>
+        <div class="col-lg-4" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item squaretwo squaregallery">HI</a>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-8">
-            <a href="#" class="btn btn-block gallery-item recfour rectanglegallery"></a>
+        <div class="col-lg-4" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item squarethree squaregallery">HI</a>
         </div>
-        <div class="col-lg-4">
-            <a href="#" class="btn btn-block gallery-item squarefour squaregallery"></a>
+        <div class="col-lg-8" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item recthree rectanglegallery">HI</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item recfour rectanglegallery">HI</a>
+        </div>
+        <div class="col-lg-4" data-category="filter">
+            <a href="#" class="btn btn-block gallery-item squarefour squaregallery">HI</a>
         </div>
     </div>
     <!-- Add more rows as needed -->
